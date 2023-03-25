@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload CSV</title>
+</head>
+
+<body>
+    <select id="fileSelect">
+    <option value="clinical_stool">File 1</option>
+    <option value="clinical_abc">File 2</option>
+  </select>
+    <br><br>
+    <input type="file" id="excelFile">
+    <br><br>
+    <button onclick="uploadExcelFile()">Upload CSV</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="upload_csv.js"></script>
+    <script>
+        $(document).ready(function() {
+            // execute the JavaScript code after the HTML document has finished loading
+            // ...
+        });
+    </script>
+</body>
+
+</html>
