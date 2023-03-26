@@ -1,0 +1,243 @@
+S.NO,Name,Gender M/F,Specimen ID,Age,Enrollment ID,Date of Collection,Town,Union Council 1)UC-4 GUJRO 2)UC-8 MANGOPIR 3)UC-5 SONGAL,Stool Sample Collected In Wide Mouth Container Yes/No,Stool Cary-Blair Received Yes/No,FIELD SITE,"Time of Collection (hh:mm, 24 hr clock)",Date Received (dd:mm:yy),Stool Collected By,BS#,Organism Isolated,"S=?17,I=14-16,R=?13","S=?18,I=13-17,R=?12","S=?13,R=?13","S=?16,I=11-15,R=?","S=?19,I=15-18,R=?14","S=?21,I=16-20,R=?15","S=?17,I=14-16,R=?13","S=?18,I=13-17,R=?12","S=?16,I=11-15,R=?10","S=?23,I=20-22,R=?19","S=?31,I=21-30,R=?20","S=?13,I=N/A,R=?12","S=?19,I=16-18,R=?15","S=?23,I=20-22,R=?19","S=?23,I=20-22,R=?19","S=?17,I=14-16,R=?13","S=?19,I=14-18.R=?13","S=?16,I=11-15,R=?10","S=?26,I=23-25,R=?22","S=?26,I=22-25,R=?21","?16,11-15,?10"
+1,AZRA KAMRAN,F,1,5Y,KEPS-0001,18-Apr-22,GADAP,UC-4 GUJRO,YES,YES,BAQAI,12:00,4/18/2022,HASINA,BS-18,Aeromonas hydrophila/caviae,0,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+2,HAMMAD,M,51,3Y,KEPS-0051,4/19/2022,GADAP,UC-4 GUJRO,YES,YES,SINA,9:15,4/19/2022,Rozina Baig,BS-21,Vibrio cholerae isolated.,16,30,0,0,24,16,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+3,MAHEEN,F,52,1.6Y,KEPS-0052,19-Apr-22,GADAP,UC-4 GUJRO,YES,YES,SINA,14:25,4/19/2022,KAUSER RIAZ,BS-22,Aero.sobria,0,31,0,17,25,25,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+4,MAAZ,M,2,2Y,KEPS-0002,20-Apr-22,GADAP,UC-4 GUJRO,YES,YES,BAQAI,9:30,4/20/2022,ANILA PARVEEN,BS-24,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+5,GHULAM QADIR,M,53,60Y,KEPS-0053,21-Apr-22,GADAP,UC-4 GUJRO,YES,YES,SINA,9:19,4/21/2022,KAUSER RIAZ,BS-25,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+6,MUHAMMAD AHSAN,M,54,1.3Y,KEPS-0054,21-Apr-22,GADAP,UC-4 GUJRO,YES,YES,SINA,9:45,4/21/2022,KAUSER RIAZ,BS-26,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+7,WAQAR ASGHAR,M,3,3Y,KEPS-0003,22-Apr-22,GADAP,UC-4 GUJRO,YES,YES,BAQAI,11:50,4/22/2022,SYEDA  IFFAT ZEHRA,BS-29,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+8,GHULAM MUSTAFA,M,4,23Y,KEPS-0004,22-Apr-22,GADAP,UC-4 GUJRO,YES,YES,BAQAI,12:10,4/22/2022,SYEDA  IFFAT ZEHRA,BS-30,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+9,MUHAMMAD ISMAIL,M,55,3Y,KEPS-0055,25-Apr-22,GADAP,UC-4 GUJRO,YES,YES,SINA,10:45,4/25/2022,Rozina Baig,BS-31,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+10,UZAIN,M,56,1.6Y,KEPS-0056,26-Apr-22,GADAP,UC-4 GUJRO,YES,YES,SINA,12:45,4/26/2022,KAUSER RIAZ,BS-36,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+11,NEHAL KHATOON,F,5,60Y,KEPS-0005,26-Apr-22,GADAP,UC-4 GUJRO,YES,YES,SINA,11:30,4/26/2022,HASINA,BS-33,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+12,NAZEERA,F,6,35Y,KEPS-0006,4/26/2022,GADAP,UC-4 GUJRO,YES,YES,BAQAI,12:00,4/26/2022,HASINA,BS-34,Vibrio cholerae isolated.,14,20,0,0,25,21,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+13,NOOR FATIMA,F,7,4Y,KEPS-0007,26-Apr-22,GADAP,UC-4 GUJRO,YES,YES,BAQAI,14:00,4/26/2022,HASINA,BS-35,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+14,UZAIR AFZAL,M,8,3M,KEPS-0008,27-Apr-22,GADAP,UC-4 GUJRO,YES,YES,BAQAI,9:00,4/27/2022,SYEDA  IFFAT ZEHRA,BS-37,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+15,USMAN,M,KEPS-0057,7M,KEPS-0057,27-Apr-22,GADAP,UC-4 GUJRO,YES,YES,SINA,12:45,4/27/2022,Rozina Baig,BS-38,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+16,GULZAR,M,9,40Y,KEPS-0009,28-Apr-22,GADAP,UC-4 GUJRO,YES,YES,BAQAI,13:30,4/28/2022,ANILA PARVEEN,BS-39,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+17,SUMAIRA,F,10,6M,KEPS-0010,30-Apr-22,GADAP,UC-5 SONGAL,YES,YES,BAQAI,12:00,4/30/2022,ANILA PARVEEN,BS-40,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+18,YASEEM,M,11,10,KEPS-0011,05/07/2022,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,11:30,05/07/2022,HASINA,BS-41,Vibrio cholerae isolated.,14,20,0,0,25,25,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+19,ARMAN,M,58,1.6,KEPS-0058,07-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,9:30,05/07/2022,KAUSER RIAZ,BS-42,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+20,AMEENULLAH,M,12,45Y,KEPS-0012,09-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,14:00,05/09/2022,ANILA PARVEEN,BS-45,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+21,FATIMA,F,KEPS-0013,6,KEPS-0013,05/09/2022,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,11:30,05/09/2022,HASINA,BS-46,Vibrio cholerae isolated.,15,20,0,0,24,25,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+22,HUSNA,F,14,6Y,KEPS-0014,10-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,12:00,05/10/2022,HASINA,BS-47,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+23,SALMAN,M,59,9Y,KEPS-0059,10-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,10:00,05/10/2022,Rozina Baig,BS-48,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+24,HALEEMA,F,60,18M,KEPS-0060,10-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,13:15,05/10/2022,Rozina Baig,BS-49,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+25,RUQIYA,F,16,40Y,KEPS-0016,05/11/2022,GADAP,UC-5 SONGAL,YES,YES,FATIMA HOSPITAL,13;00,05/11/2022,ANILA PARVEEN,BS-50,Vibrio cholerae isolated.,11,20,0,0,26,26,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+26,NAZIA,F,61,7M,KEPS-0061,11-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,11:50,05/11/2022,Rozina Baig,BS-51,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+27,SAIMA,F,62,3Y,KEPS-0062,11-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,10:55,05/11/2022,Rozina Baig,BS-52,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+28,AYAN,M,63,3Y,KEPS-0063,11-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,14:28,05/11/2022,SYEDA  IFFAT ZEHRA,BS-53,Aeromonas hydrophila/caviae,0,27,0,0,23,19,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+29,DEEN MOHD,M,15,40Y,KEPS-0015,05/12/2022,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,13:00,05/12/2022,ANILA PARVEEN,BS-55,Plseiomonas shigelloides & Shigella species,13,35,30,27,27,37,-,-,-,-,-,-,-,-,-,0,22,0,19,27,20
+30,MOOSA,M,64,2Y,KEPS-0064,12-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,11:50,05/12/2022,SYEDA  IFFAT ZEHRA,BS-56,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+31,ABDULLAH,M,65,3Y,KEPS-0065,13-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,11:10,5/13/2022,SYEDA  IFFAT ZEHRA,BS-57,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+32,UMM E FARWA,F,66,1Y,KEPS-0066,14-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,10:50,5/14/2022,SYEDA  IFFAT ZEHRA,BS-60,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+33,KULSOOM,F,17,9Y,KEPS-0017,5/14/2022,GADAP,UC-5 SONGAL,YES,YES,FATIMA HOSPITAL,10:50,5/14/2022,HASINA,BS-61,Vibrio cholerae isolated.,15,21,0,0,25,24,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+34,MUHAMMAD RAMZAN,M,67,2.6Y,KEPS-0067,14-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,12:10,5/14/2022,SYEDA  IFFAT ZEHRA,BS-59,Aeromonas hydrophila/caviae,0,20,0,0,10,27,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+35,LAIBA,F,18,16Y,KEPS-0018,5/16/2022,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,12:55,5/16/2022,HASINA,BS-63,Vibrio cholerae isolated.,14,20,0,0,25,23,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+36,RASHDA,F,19,35Y,KEPS-0019,5/17/2022,GADAP,UC-5 SONGAL,YES,YES,FATIMA HOSPITAL,14:30,5/17/2022,ANILA PARVEEN,BS-66,Vibrio cholerae isolated.,13,31,9,24,23,23,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+37,BABY FARWAH,F,20,06M,KEPS-0020,18-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,10:30,5/18/2022,HASINA,BS-70,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+38,BILAL S/O M.AZAM,M,21,35Y,KEPS-0021,5/18/2022,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,13:30,5/18/2022,SYEDA  IFFAT ZEHRA,BS-71,Vibrio cholerae isolated.,14,32,0,25,24,24,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+39,AMEER  HAMZA,M,68,7Y,KEPS-0068,5/18/2022,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,10:05,5/18/2022,KAUSER RIAZ,BS-69,Salmonella typhi Isolated,-,-,-,-,-,-,0,0,0,0,21,19,0,-,14,-,-,-,-,-,-
+40,HUMAIR,M,69,1Y 6M,KEPS-0069,19-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,9:15,5/19/2022,Rozina Baig,BS-72,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+41,AYESHA,F,70,12Y,KEPS-0070,19-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,10:50,5/19/2022,KAUSER RIAZ,BS-73,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+42,ADNAN S/O HAYAT,M,22,2Y,KEPS-0022,19-May-22,GADAP,UC-5 SONGAL,YES,YES,FATIMA HOSPITAL,10:30,5/19/2022,ANILA PARVEEN,BS-74,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+43,AZRA NAVEED,F,23,1Y,KEPS-0023,20-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,10:10,5/20/2022,SYEDA  IFFAT ZEHRA,BS-77,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+44,BUSHRA,F,24,2.5Y,KEPS-0024,20-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,11:00,5/20/2022,HASINA,BS-78,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+45,FARISHTA,F,71,4Y,KEPS-0071,20-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,14:45,5/20/2022,KAUSER RIAZ,BS-79,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+46,MOHAMMAD S/O A.WASI,M,25,9M,KEPS-0025,21-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,10:00,5/21/2022,SYEDA  IFFAT ZEHRA,BS-81,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+47,Azad S/O A.Jabbar,M,26,10M,KEPS-0026,21-May-22,GADAP,UC-5 SONGAL,YES,YES,FATIMA HOSPITAL,11:10,5/21/2022,SYEDA  IFFAT ZEHRA,BS-82,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+48,Ismail Shah,M,27,23Y,KEPS-0027,5/21/2022,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,11:35,5/21/2022,HASINA,BS-83,Vibrio cholera and Salmonella specie isolated,16,32,0,26,25,23,0,23,0,28,31,17,25,-,22,-,-,-,-,-,-
+49,Abdullah,M,72,4M,KEPS-0072,21-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,12:45,5/21/2022,Rozina Baig,BS-84,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+50,Muqrameen,M,73,2Y,KEPS-0073,23-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,11:45,5/23/2022,Rozina Baig,BS-86,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+51,Minsa,F,74,1.6Y,KEPS-0074,24-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,11:10,5/24/2022,KAUSER RIAZ,BS-88,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+52,Hoorain,F,75,1.3Y,KEPS-0075,24-May-22,GADAP,UC-4 GUJRO,YES,YES,FATIMA HOSPITAL,12:30,5/24/2022,KAUSER RIAZ,BS-89,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+53,AYESHA,F,28,40Y,KEPS-0028,26-May-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:30,5/26/2022,ANILA PARVEEN,BS-95,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+54,EMAN FATIMA,F,76,6M,KEPS-0076,26-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,11;16,5/26/2022,KAUSER RIAZ,BS-96,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+55,FAIZA,F,77,1Y,KEPS-0077,26-May-22,GADAP,UC-4 GUJRO,YES,YES,SINA,13:00,5/26/2022,Rozina Baig,BS-97,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+56,NAIRA,F,29,1.6Y,KEPS-0029,28-May-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:45,5/28/2022,ANILA PARVEEN,BS-104,Escherichia coli 2,-,-,-,-,-,-,20,24,0,30,21,0,21,29,21,-,-,-,-,-,-
+57,FATIMA,F,78,3Y,KEPS-0078,28-May-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:40,5/28/2022,KAUSER RIAZ,BS-103,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+58,RANIA,F,79,2Y,KEPS-0079,28-May-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:25,5/28/2022,KAUSER RIAZ,BS-102,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+59,MUHAMMAD YOUSAF,M,30,1.9Y,KEPS-0030,30-May-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:00,5/30/2022,ANILA PARVEEN,BS-109,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+60,ANAYA,F,80,10M,KEPS-0080,30-May-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:40,5/30/2022,Rozina Baig,BS-107,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+61,ZUBAIDA,F,31,32Y,KEPS-0031,31-May-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:30,5/31/2022,HASINA,BS-111,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+62,FATIMA,F,32,2Y,KEPS-0032,06/02/2022,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:00,06/02/2022,ANILA PARVEEN,BS-114,Shigella Spp,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,15,0,35,24,24
+63,ZAIN ALI,M,81,4Y,KEPS-0081,02-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:35,06/02/2022,KAUSER RIAZ,BS-115,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+64,HASBEE,F,33,5y,KEPS-0033,03-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,15:20,06/03/2022,ANILA PARVEEN,BS-120,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+65,M.RAFIQ,M,34,10M,KEPS-0034,04-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:20,06/04/2022,HASINA,BS-121,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+66,BIBI AYESHA,F,35,4Y,KEPS-0035,06-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,15:00,06/06/2022,ANILA PARVEEN,BS-123,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+67,ADNAN,M,82,10Y,KEPS-0082,06/06/2022,GADAP,UC-4-GUJRO,YES,YES,SINA,14:55,06/06/2022,Rozina Baig,BS-124,Vibrio cholerae isolated.,16,29,28,23,25,27,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+68,TAHIR,M,83,4Y,KEPS-0083,07-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,15:50,06/07/2022,Rozina Baig,BS-126,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+69,SHAHZAD,M,84,3Y,KEPS-0084,08-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,15:25,06/08/2022,Rozina Baig,BS-129,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+70,HARIS S/O NADEEM,M,36,6Y,KEPS-0036,10-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,15:00,06/10/2022,HASINA,BS-133,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+71,RUQIQ D/O USMAN,F,37,10M,KEPS-0037,10-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,15:16,06/10/2022,ANILA PARVEEN,BS-134,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+72,MUHAMMAD NOUMAN,M,85,2Y,KEPS-0085,10-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,15:16,06/10/2022,KAUSER RIAZ,BS-135,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+73,ASMA,F,86,6M,KEPS-0086,10-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,15:16,06/10/2022,KAUSER RIAZ,BS-136,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+74,SHRIFA,F,38,50Y,KEPS-0038,14-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:20,6/14/2022,SYEDA  IFFAT ZEHRA,BS-140,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+75,YASMEEN,F,87,11Y,KEPS-0087,15-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,9:15,6/15/2022,Rozina Baig,BS-142,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+76,ALIYA,F,88,12Y,KEPS-0088,15-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,15:00,6/15/2022,KAUSER RIAZ,BS-143,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+77,ILLA JAAN,F,39,38Y,KEPS-0039,16-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:00,6/16/2022,SYEDA  IFFAT ZEHRA,BS-144,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+78,AYAT,F,89,3Y,KEPS-0089,17-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:00,6/17/2022,Rozina Baig,BS-147,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+79,SAIF-UR-REHMAN,M,40,24Y,KEPS-0040,17-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:00,6/17/2022,HASINA,BS-148,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+80,FAIZAN,M,90,5Y,KEPS-0090,18-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:00,6/18/2022,Rozina Baig,BS-150,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+81,KARIM,M,41,3Y,KEPS-0041,20-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,15:00,6/20/2022,ANILA PARVEEN,BS-151,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+82,AMNA,F,91,1.6Y,KEPS-0091,21-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:23,6/21/2022,KAUSER RIAZ,BS-154,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+83,HANIYA,F,92,7M,KEPS-0092,21-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:55,6/21/2022,Rozina Baig,BS-155,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+84,SAMI ULLAH,M,42,3M,KEPS-0042,21-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:05,6/21/2022,HASINA,BS-156,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+85,SANWARA,F,93,8M,KEPS-0093,22-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:14,6/22/2022,Rozina Baig,BS-160,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+86,BIBI AIMAN,F,94,3Y,KEPS-0094,22-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:15,6/22/2022,KAUSER RIAZ,BS-159,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+87,ABDUL REHMAN,M,95,3Y,KEPS-0095,24-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:50,6/24/2022,Rozina Baig,BS-162,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+88,ANIA KHAN,F,43,1.6Y,KEPS-0043,24-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,6/24/2022,ANILA PARVEEN,BS-163,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+89,HUSNA,F,44,8M,KEPS-0044,25-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,6/25/2022,HASINA,BS-164,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+90,HAMZA,M,45,1Y,KEPS-0045,25-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:00,6/25/2022,SYEDA  IFFAT ZEHRA,BS-165,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+91,MARYAM,F,46,1Y,KEPS-0046,25-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:00,6/25/2022,SYEDA  IFFAT ZEHRA,BS-166,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+92,MOOSA,M,47,4.10Y,KEPS-0047,28-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:15,6/28/2022,HASINA,BS-167,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+93,ABDUL RAHEEM,M,96,3Y,KEPS-0096,28-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:46,6/28/2022,Rozina Baig,BS-168,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+94,ARFA,F,97,1.9Y,KEPS-0097,28-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:20,6/28/2022,KAUSER RIAZ,BS-169,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+95,SAJIDA,F,98,7M,KEPS-0098,29-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:50,6/29/2022,KAUSER RIAZ,BS-170,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+96,ABDUL KARIM,M,48,4Y,KEPS-0048,29-Jun-22,GADAP,UC-4-GUJRO,YES,YES,FATIMA HOSPITAL,9:45,6/29/2022,HASINA,BS-171,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+97,NAZIA MAQBOOL,F,49,3M,KEPS-0049,29-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:20,6/29/2022,SYEDA  IFFAT ZEHRA,BS-172,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+98,KHAIR ULLAH,M,50,1.8Y,KEPS-0050,29-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,9:30,6/29/2022,SYEDA  IFFAT ZEHRA,BS-173,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+99,ASIA BIBI,F,99,14Y,KEPS-0099,30-Jun-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:20,6/30/2022,KAUSER RIAZ,BS-174,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+100,MUSAB,M,101,6M,KEPS-0101,30-Jun-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,9:50,6/30/2022,HASINA,BS-175,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+101,HOORAIN,F,100,4Y,KEPS-0100,01-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:00,07/01/2022,Rozina Baig,BS-182,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+102,SHAHJAN SHAHBAZ,M,102,2Y,KEPS-0102,01-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,07/01/2022,ANILA PARVEEN,BS-178,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+103,ANUS,M,103,3Y,KEPS-0103,01-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11;10,07/01/2022,HASINA,BS-179,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+104,SAMIULLAH,M,151,9M,KEPS-0151,01-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:45,07/01/2022,Rozina Baig,BS-183,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+105,BAKHT BIBI,F,152,9Y,KEPS-0152,01-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,15:10,07/01/2022,KAUSER RIAZ,BS-184,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+106,AYAN ALI,M,153,6M,KEPS-0153,02-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:16,07/02/2022,Rozina Baig,BS-185,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+107,ABDUL REHMAN,M,104,3M,KEPS-0104,05-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,9:50,07/02/2022,ANILA PARVEEN,BS-189,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+108,AYESHA KALBY HUSSAIN,F,154,8M,KEPS-0154,06-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:00,07/06/2022,SYEDA  IFFAT ZEHRA,BS-190,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+109,QURQTUL AIN,F,105,2Y,KEPS-0105,06-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:00,06-/07/2022,HASINA,BS-191,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+110,SADIA NABI,F,106,1.6Y,KEPS-0106,07-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,9:15,07/07/2022,HASINA,BS-192,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+111,ISHTAR,F,107,3M,KEPS-0107,07-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:30,07/07/2022,HASINA,BS-193,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+112,ZAM ZAM,F,108,8M,KEPS-0108,07-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:00,07/07/2022,ANILA PARVEEN,BS-194,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+113,AYYAZ,M,109,11Y,KEPS-0109,13-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:30,07/07/2022,ANILA PARVEEN,BS-197,Aero./caviae,12,20,7,0,26,23,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+114,ZOJAL,M,155,2Y,KEPS-155,14-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:57,7/14/2022,Rozina Baig,BS-198,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+115,MUDASIR,M,110,8M,KEPS-0110,7/14/2022,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:30,7/14/2022,HASINA,BS-199,Vibrio cholerae isolated.,0,20,0,0,26,27,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+116,KINZA,F,156,6Y,KEPS-0156,15-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:15,7/15/2022,Rozina Baig,BS-200,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+117,DUA,F,157,2,KEPS-0157,15-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:30,7/15/2022,SYEDA  IFFAT ZEHRA,BS-201,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+118,FARHAN,M,111,2Y,KEPS-0111,7/15/2022,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:10,7/15/2022,ANILA PARVEEN,BS-202,Vibrio parahaemolyticus isolated.,15,20,0,0,27,26,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+119,LAIQA,F,112,40Y,KEPS-0112,15-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:25,7/15/2022,ANILA PARVEEN,BS-203,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+120,BISMA ABDULLAH,F,158,13Y,KEPS-0158,18-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,13:15,7/18/2022,Rozina Baig,BS-208,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+121,AZAN,M,159,8M,KEPS-0159,19-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:08,7/19/2022,SYEDA IFFAT ZEHRA,BS-211,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+122,SHIWA,M,160,9M,KEPS-0160,18-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:34,7/18/2022,SYEDA IFFAT ZEHRA,BS-212,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+123,NOOR FATIMA,F,113,2Y,KEPS-0113,19-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:45,7/19/2022,HASINA,BS-210,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+124,MUHAMMAD OKASH,M,162,10Y,KEPS-0162,20-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:20,7/20/2022,Rozina Baig,BS-214,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+125,HAIDER ALI,M,161,18M,KEPS-0161,20-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:15,7/20/2022,SYEDA IFFAT ZEHRA,BS-213,Aeromonas hydrophila/caviae,12,22,25,0,16,27,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+126,SIDDIQUE,M,114,5M,KEPS-0114,21-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:15,7/21/2022,ANILA PARVEEN,BS-216,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+127,KOUSAR FATIMA,F,115,10Y,KEPS-0115,21-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:20,7/21/2022,ANILA PARVEEN,BS-217,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+128,SALKINA KHAN,F,116,10Y,KEPS-0116,21-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,9:45,7/21/2022,HASINA,BS-218,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+129,ALI HASSAN,M,117,1.6Y,KEPS-0117,21-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:30,7/21/2022,HASINA,BS-219,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+130,SARA AZHAR ALI,F,163,18M,KEPS-0163,21-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:02,7/21/2022,SYEDA  IFFAT ZEHRA,BS-220,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+131,HASNAIN AZHAR ALI,M,164,6M,KEPS-0164,22-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:15,7/22/2022,Rozina Baig,BS-221,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+132,M.ASAD,M,118,10M,KEPS-0118,22-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:00,7/22/2022,ANILA PARVEEN,BS-222,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+133,RIZWA,M,119,7Y,KEPS-0119,22-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:50,7/22/2022,HASINA,BS-223,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+134,MAVIYA,M,120,11M,KEPS-0120,23-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:00,7/23/2022,ANILA PARVEEN,BS-224,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+135,MAHNOOR,F,165,4Y,KEPS-0165,23-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,13:20,7/23/2022,Rozina Baig,BS-225,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+136,ADNAN TARIQ,M,122,1Y,KEPS-0122,27-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:30,7/27/2022,ANILA PARVEEN,BS-230,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+137,ZUNAIRA,F,121,7M,KEPS-0121,27-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:45,7/27/2022,SYEDA  IFFAT ZEHRA,BS-231,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+138,KHALIQ DAD,M,123,2Y,KEPS-0123,28-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:30,7/28/2022,HASINA,BS-233,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+139,ARIF KHAN,M,124,6M,KEPS-0124,28-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:40,7/28/2022,HASINA,BS-234,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+140,UMAR,M,166,9Y,KEPS-0166,28-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:10,7/28/2022,KAUSER RIAZ,BS-235,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+141,RUKHMEENA,F,167,12Y,KEPS-0167,28-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:30,7/28/2022,Rozina Baig,BS-236,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+142,SUMAIDA,F,168,7M,KEPS-0168,29-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:10,7/29/2022,KAUSER RIAZ,BS-237,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+143,ABDULLAH,M,169,7Y,KEPS-0169,29-Jul-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:15,7/29/2022,Rozina Baig,BS-238,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+144,SHAMMA,F,125,2Y,KEPS-0125,29-Jul-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,7/29/2022,SYEDA IFFAT ZEHRA,BS-239,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+145,AMBER LATIF,F,126,1Y,KEPS-0126,01-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:10,08/01/2022,HASINA,BS-244,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+146,NAJEEB,M,127,1Y,KEPS-0127,02-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:15,08/02/2022,ANILA PARVEEN,BS-226,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+147,SDNAN,M,170,1.5Y,KEPS-0170,02-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:00,08/02/2022,KAUSER RIAZ,BS-247,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+148,USMAN,M,171,1Y,KEPS-0171,02-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:37,08/02/2022,Rozina Baig,BS-227,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+149,WAQAS,M,172,6Y,KEPS-0172,02-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:50,08/02/2022,KAUSER RIAZ,BS-228,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+150,PALWASHA D/O SHER AGHA,F,128,2,KEPS-0128,03-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:00,08/03/2022,SYEDA IFFAT ZEHRA,BS-248,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+151,A.MUSAWIR S/O IMTIAZ,M,129,11M,KEPS-0129,03-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:15,08/03/2022,SYEDA IFFAT ZEHRA,BS-249,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+152,YAQOOB S/O SHER AGHA,M,130,6M,KEPS-0130,03-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:00,08/03/2022,SYEDA IFFAT ZEHRA,BS-250,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+153,MARIA D/O A. JABBAR,F,173,2Y,KEPS-0173,03-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:30,08/03/2022,Rozina Baig,BS-251,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+154,A.QADEER,M,174,6Y,KEPS-0174,04-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:20,08/04/2022,Rozina Baig,BS-255,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+155,NAZEER AHMED,M,131,2Y,KEPS-0131,04-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,9:50,08/04/2022,HASINA,BS-253,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+156,ERUM FIDA,F,132,3Y,KEPS-0132,04-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:30,08/04/2022,ANILA PARVEEN,BS-254,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+157,KHAMSA,F,133,11Y,KEPS-0133,05-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:53,08/05/2022,SYEDA IFFAT ZEHRA,BS-257,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+158,GUL MUHAMMAD,M,134,60Y,KEPS-0134,05-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:50,08/05/2022,SYEDA IFFAT ZEHRA,BS-256,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+159,ATIQA D/O HAZRAT SAEED,F,135,6M,KEPS-0135,06-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:00,08/06/2022,SYEDA IFFAT ZEHRA,BS-259,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+160,UMAR S/O GUL ZAMAN,M,175,1Y,KEPS-0175,06-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:30,08/06/2022,KAUSER RIAZ,BS-261,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+161,SHAKIR ALI S/O NADIR,M,176,4M,KEPS-0176,06-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:50,08/06/2022,KAUSER RIAZ,BS-260,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+162,FATIMA D/O NAEEMULLAH,F,177,11Y,KEPS-0177,06-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,13:50,08/06/2022,KAUSER RIAZ,BS-262,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+163,MANAHIL,F,136,6M,KEPS-0136,11-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:00,08/11/2022,SYEDA IFFAT ZEHRA,BS-264,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+164,REHMAT,M,137,9M,KEPS-0137,11-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:15,08/11/2022,SYEDA IFFAT ZEHRA,BS-265,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+165,AQSA D/O ZAHEER,F,138,15M,KEPS-0138,12-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,08/12/2022,SYEDA IFFAT ZEHRA,BS-272,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+166,ANUS S/O A. HADI,M,178,2Y,KEPS-0178,12-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,9:30,08/12/2022,Rozina Baig,BS-268,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+167,SHEEMA D/O ZAHID,F,179,3Y,KEPS-0179,12-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:05,08/12/2022,KAUSER RIAZ,BS-269,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+168,EMAN D/O MORSALEEN,F,180,1y5M,KEPS-0180,12-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,,08/12/2022,,BS-270,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+169,ANAB D/O SAAD KHAN,F,181,2Y,KEPS-0181,12-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:30,08/12/2022,Rozina Baig,BS-271,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+170,SANIA D/O ALI RAZZAQ,F,139,2Y,KEPS-0139,16-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:50,8/16/2022,SYEDA  IFFAT ZEHRA,BS-274,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+171,HASSAN S/O AMIR,M,182,2Y,KEPS-0182,16-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:30,8/16/2022,Rozina Baig,BS-275,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+172,BASHEER S/O RIZWAN,M,183,3Y,KEPS-0183,16-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,13:05,8/16/2022,KAUSER RIAZ,BS-3276,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+173,ZARYAN S/O AMJAD,M,184,7M,KEPS-0184,17-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:40,8/17/2022,Rozina Baig,BS-278,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+174,ALISHBA D/O AMANULLAH,F,185,9Y,KEPS-0185,17-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:10,8/17/2022,KAUSER RIAZ,BS-279,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+175,SAMEER KHAN S/O SHERAZ,M,140,4Y,KEPS-0140,17-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:30,8/17/2022,ANILA PARVEEN,BS-280,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+176,AYAN S/O NAZEER,M,141,"2y, 4M",KEPS-0141,17-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,8/17/2022,SYEDA IFFAT ZEHRA,BS-281,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+177,BASGULA W/O ABDUL MAJID,F,142,40Y,KEPS-0142,17-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:00,8/17/2022,SYEDA IFFAT ZEHRA,BS-282,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+178,ABDUL WAHID,M,143,8Y,KEPS-0143,17-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:50,8/17/2022,SYEDA IFFAT ZEHRA,BS-283,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+179,SAFINA W/O TOR KHAN,F,144,25Y,KEPS-0144,19-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,8/19/2022,HASINA,BS-285,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+180,AREESHA D/O WAHEED ALI,F,186,5Y,KEPS-0186,19-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:50,8/19/2022,KAUSER RIAZ,BS-286,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+181,AYAT D/O ZALMI KHAN,F,187,"1y, 5M",KEPS-0187,19-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:30,8/19/2022,Rozina Baig,BS-287,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+182,SHABNAM D/O ABUDARDA,F,188,3Y,KEPS-0188,22-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:43,8/22/2022,Rozina Baig,BS-290,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+183,SAFOORA D/O M.WASEEM,F,189,8Y,KEPS-0189,23-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:45,8/23/2022,KAUSER RIAZ,BS-291,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+184,SITTARA,F,145,5M,KEPS-0145,23-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,8/23/2022,HASINA,BS-293,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+185,MUMTAZ,M,146,1Y,KEPS-0146,23-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:20,8/23/2022,MUMTAZ,BS-294,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+186,KHADIM,M,147,4M,KEPS-0147,23-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:05,8/23/2022,ANILA PARVEEN,BS-295,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+187,SHAKILA,F,148,38Y,KEPS-0148,24-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:30,8/24/2022,HASINA,BS-296,Aeromonas hydrophila/caviae,0,30,25,23,23,24,-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+188,DANISH S/O SAJJAD,M,190,2Y,KEPS-0190,24-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:30,8/24/2022,KAUSER RIAZ,BS-297,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+189,HUZAIFA,M,149,3M,KEPS-149,25-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:00,8/25/2022,IFFAT ZEHRA,BS-302,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+190,JAHAN ZAIB S/O MUSHTAQ,M,191,1.5Y,KEPS-0191,25-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:45,8/25/2022,Rozina Baig,BS-298,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+191,SIDRA,F,192,1.3Y,KEPS-0192,26-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:40,8/26/2022,KAUSER RIAZ,BS-305,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+192,AZHAR,M,193,193,KEPS-0193,26-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11;45,8/26/2022,KAUSER RIAZ,BS-306,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+193,ADEEL,M,150,1Y,KEPS-0150,26-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:00,8/26/2022,ANILA PARVEEN,BS-308,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+194,AYAN ALAM SHER,M,201,10M,KEPS-0201,27-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:05,8/27/2022,HASINA,BS-310,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+195,SUMERA,F,202,1Y,KEPS-0202,27-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:30,8/27/2022,HASINA,BS-311,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+196,AMEER  HAMZA,M,194,9Y,KEPS-0194,27-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:10,8/27/2022,Rozina Baig,BS-312,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+197,UMME-HANIA,F,195,9M,KEPS-0195,8/29/2022,GADAP,UC-4-GUJRO,YES,YES,SINA,12:00,8/29/2022,Rozina Baig,BS-319,Shigella species,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,14,0,0,34,26,18
+198,BIBI ZARLASH,F,203,2Y,KEPS-0203,29-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:00,8/29/2022,SYEDA IFFAT ZEHRA,BS-320,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+199,NAZEER,M,204,5Y,KEPS-0204,29-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,11:15,8/29/2022,SYEDA IFFAT ZEHRA,BS-321,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+200,UMAIMA,F,205,1Y,KEPS-0205,29-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14;40,8/29/2022,HASINA,BS-322,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+201,TABASUM,F,206,6M,KEPS-0206,30-Aug-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:50,8/30/2022,ANILA PARVEEN,BS-323,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+202,IQRA,F,196,11M,KEPS-0196,30-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:10,8/30/2022,KAUSER RIAZ,BS-324,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+203,SANIYA,F,197,9Y,KEPS-0197,31-Aug-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:40,8/31/2022,Rozina Baig,BS-332,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+204,SHIRAZ,M,199,7M,KEPS-0199,01-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:40,09/01/2022,KAUSER RIAZ,BS-339,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+205,KHATIJA,F,198,5Y,KEPS-0198,01-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:20,09/01/2022,Rozina Baig,BS-338,Prov.alcal/rustig,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+206,MARWA,F,200,1Y,KEPS-0200,01-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,13:00,09/01/2022,KAUSER RIAZ,BS-340,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+207,GUL HASSAN,M,207,1Y,KEPS-0207,01-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:40,09/01/2022,ANILA PARVEEN,BS-348,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+208,ZAFAR,M,208,1Y,KEPS-0208,01-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:50,09/01/2022,IFFAT ZEHRA,BS-349,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+209,ALISHBA D/O AMANULLAH,F,251,2Y,KEPS-0251,09/02/2022,GADAP,UC-4-GUJRO,YES,YES,SINA,14:10,09/02/2022,KAUSER RIAZ,BS-351,Vibrio cholerae isolated.,0,21,0,0,13,19,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+210,ABDUL REHMAN,M,209,1M,KEPS-0209,03-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:45,09/03/2022,SYEDA IFFAT ZEHRA,BS-360,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+211,UZAIR AFZAL,M,210,7M,KEPS-0210,03-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,09/03/2022,HASINA,BS-359,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+212,ARIF KHAN,M,211,7M,KEPS-0211,03-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,12:40,03--09-2022,IFFAT ZEHRA,BS-358,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+213,FAIZA,F,252,1.5Y,KEPS-252,05-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:10,09/05/2022,Rozina Baig,BS-369,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+214,SHAHIDA,F,212,5Y,KEPS-0212,05-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:25,09/05/2022,ANILA PARVEEN,BS-370,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+215,ZAINAB,F,253,5Y,KEPS-0253,06-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:10,09/06/2022,KAUSER RIAZ,BS-377,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+216,MUQEEM,M,254,5M,KEPS-0254,06-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:30,09/06/2022,KAUSER RIAZ,BS-378,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+217,KHURSHID,F,255,7Y,KEPS-0255,06-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:00,09/06/2022,KAUSER RIAZ,BS-379,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+218,KULSOOM,F,213,10M,KEPS-0213,06-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:30,09/06/2022,ANILA PARVEEN,BS-380,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+219,AZIZA,F,214,2Y,KEPS-0214,06-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:00,09/06/2022,ANILA PARVEEN,BS-381,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+220,SAWARA,F,256,1.5Y,KEPS-0256,07-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,13:40,09/06/2022,Rozina Baig,BS-539,Aeromonas hydrophila/caviae,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+221,USMAN,M,215,3Y,KEPS-0215,08-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:30,09/08/2022,IFFAT ZEHRA,BS-399,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+222,KAMRAN,M,216,2Y,KEPS-0216,08-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:00,09/08/2022,IFFAT ZEHRA,BS-400,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+223,ZUNAIRA,F,217,7Y,KEPS-0217,08-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:30,09/08/2022,ANILA PARVEEN,BS-401,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+224,SAGEER,M,257,1.5Y,KEPS-0257,08-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:40,09/08/2022,KAUSER RIAZ,BS-397,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+225,AMAN ALI,M,258,4M,KEPS-0258,08-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:00,09/08/2022,KAUSER RIAZ,BS-398,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+226,USAMA,M,218,12Y,KEPS-0218,09/09/2022,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:45,09/09/2022,HASINA,BS-417,Shigella species,,,,,,,,,,,,,,,,30,14,0,36,36,24
+227,NADIA,F,259,1Y,KEPS-0259,10-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:30,09/10/2022,KAUSER RIAZ,BS-426,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+228,SUMAYA,F,219,7M,KEPS-0219,12-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,9:25,09/12/2022,IFFAT ZEHRA,BS-439,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+229,TALHA,M,260,1.5Y,KEPS-0260,13-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:40,9/13/2022,Rozina Baig,BS-455,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+230,SAIMA,F,261,2Y,KEPS-0261,13-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,15:25,9/13/2022,KAUSER RIAZ,BS-456,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+231,NIAMATULLAH,M,22,7M,KEPS-0220,13-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:15,9/13/2022,IFFAT ZEHRA,BS-453,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+232,JALAL,M,262,1.2Y,KEPS-0262,14-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,10:40,9/14/2022,KAUSER RIAZ,BS-458,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+233,HASNAIN AZHAR ALI,M,263,6Y,KEPS-0263,14-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,12:40,9/14/2022,Rozina Baig,BS-459,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+234,IQRA,F,264,2Y,KEPS-0264,14-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,14:10,9/14/2022,KAUSER RIAZ,BS-460,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+235,RAFIYA,F,221,2Y,KEPS-0221,15-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:00,9/15/2022,ANILA PARVEEN,BS-486,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+236,SAEEDA,F,222,20Y,KEPS-0222,15-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,10:45,9/16/2022,IFFAT ZEHRA,BS-500,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+237,MARYAM,F,265,3Y,KEPS-0265,16-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,11:00,9/16/2022,Rozina Baig,BS-499,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+238,ZAHRA,F,266,2Y,KEPS-0266,17-Sep-22,GADAP,UC-4-GUJRO,YES,YES,SINA,9:35,9/17/2022,KAUSER RIAZ,BS-501,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+239,TANZEELA,F,223,1Y,KEPS-0223,9/19/2022,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,13:48,9/19/2022,ZEHRA NAZ,BS-512,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+240,ABDUL SAMAD,M,224,9Y,KEPS-0224,19-Sep-22,GADAP,UC-5-SONGAL,YES,YES,FATIMA HOSPITAL,14:30,9/19/2022,HASINA,BS-511,Vibrio cholera and Shigella specie isolated,10,26,0,24,24,23,-,-,-,-,-,-,-,-,-,0,7,0,30,22,19
+241,PRIYA,F,267,12Y,KEPS-0267,9/19/2022,GADAP,UC-4-GUJRO,YES,YES,SINA,12:00,9/19/2022,Rozina Baig,BS-510,No suspected organisms isolated,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+242,HASNAIN AZHAR ALI,M,268,4Y,KEPS-0268,9/20/2022,GADAP,UC-4-GUJRO,YES,YES,SINA,11:20,9/20/2022,SUMBREELA,BS-519,Aeromonas sobria,0,29,0,0,13,25,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
