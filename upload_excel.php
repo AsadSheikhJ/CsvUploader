@@ -49,7 +49,7 @@
 $host = 'localhost';
 $username = 'root';
 $password = '';
-$dbname = 'csvupload-db';
+$dbname = 'upload-db';
 
 // Define the expected headers for each Excel file
 $headerMap = [
@@ -93,8 +93,34 @@ $headerMap = [
         "S=≥26,I=22-25,R=≤21",
         "≥16,11-15,≤10"    
     ],
-    'file2' => ['ColumnA', 'ColumnB', 'ColumnC', 'ColumnD'],
-    'file3' => ['Col1', 'Col2', 'Col3', 'Col4', 'Col5'],
+    'cholera_case' => [
+        "S.No.",
+        "Date" ,
+        "F" ,
+        "M" ,
+        "Grand Total"       
+    ],
+    'covid_layari' => [
+        "Date (DD/MM/YYYY)",
+        "Negative",
+        "New Reported COVID-19 Cases (within 24 hours)",
+        "Samples Taken"
+    ],
+    'covid_gulshan' => [
+        "Date (DD/MM/YYYY)",
+        "Negative",
+        "New Reported COVID-19 Cases (within 24 hours)",
+        "Samples Taken"
+    ]
+    // add more file headers as needed
+];
+
+// header Iterator for each file
+$iteratorRow = [
+    'clinical_stool' => 3,
+    'cholera_case' => 4,
+    'covid_layari' => 4,
+    'covid_gulshan' => 4,
     // add more file headers as needed
 ];
 
@@ -124,16 +150,16 @@ $objPHPExcel = IOFactory::load($excelFile);
 $worksheet = $objPHPExcel->getActiveSheet();
 
 // Get the headers from the first row of the worksheet
-$headers = $worksheet->getRowIterator(3)->current()->getCellIterator();
+$headers = $worksheet->getRowIterator($iteratorRow[$selectedFile])->current()->getCellIterator();
 $headerRow = [];
 foreach ($headers as $header) {
     $headerRow[] = $header->getValue();
 }
 
-// echo "<pre>";
-// var_dump($headerMap[$selectedFile]);
-// var_dump($headerRow);
-// echo "</pre>";
+echo "<pre>";
+var_dump($headerMap[$selectedFile]);
+var_dump($headerRow);
+echo "</pre>";
 
 // Check if the header row matches the expected headers for the selected file
 if ($headerRow != $headerMap[$selectedFile]) {
@@ -163,14 +189,33 @@ foreach ($dataRows as $row) {
 }
 
 // Insert the data rows into the database
+$duplicateIds = [];
 foreach ($dataRows as $row) {
     // Prepare the SQL statement to insert the data into the database
     $placeholders = implode(',', array_fill(0, count($row), '?'));
     $sql = "INSERT INTO $tableName VALUES ($placeholders)";
     $statement = $pdo->prepare($sql);
     
-    // Insert the row data into the database
-    $statement->execute(array_values($row));
+    try {
+        // Insert the row data into the database
+        $statement->execute(array_values($row));
+    } catch (PDOException $e) {
+        // Catch the exception for duplicate entry
+        if ($e->getCode() == "23000") {
+            // Get the duplicate ID
+            preg_match("/Duplicate entry '(.+)' for key/i", $e->getMessage(), $matches);
+            $duplicateId = $matches[1];
+            $duplicateIds[] = $duplicateId;
+            continue; // Skip this row and move to the next one
+        } else {
+            // Re-throw other exceptions
+            throw $e;
+        }
+    }
+}
+
+if (count($duplicateIds) > 0) {
+    echo "The following IDs are duplicates: " . implode(", ", $duplicateIds) . ".<br>";
 }
 
 echo "Data imported successfully";
