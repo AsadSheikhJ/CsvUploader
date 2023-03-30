@@ -1,11 +1,5 @@
 <?php
 
-// Replace the values below with your own database connection details
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'upload-db';
-
 // Define the expected headers for each Excel file
 $headerMap = [
     'clinical_stool' => [
@@ -156,11 +150,10 @@ if ($headerRow != $headerMap[$selectedFile]) {
 }
 
 // Get the database column count for the selected table
-$pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+$db = \Config\Database::connect();
 $tableName = $selectedFile;
-$statement = $pdo->prepare("SELECT COUNT(*) FROM information_schema.columns WHERE table_name = ?");
-$statement->execute([$tableName]);
-$columnCount = $statement->fetchColumn();
+$query = $db->query("SELECT COUNT(*) FROM information_schema.columns WHERE table_name = ?", [$tableName]);
+$columnCount = $query->getRow()->{'COUNT(*)'};
 
 // Get the iterator row for the selected file
 $iteratorRow = isset($iteratorRow[$selectedFile]) ? $iteratorRow[$selectedFile] : 1;
@@ -180,7 +173,7 @@ foreach ($dataRows as $row) {
 
 
 // Empty the database table
-$pdo->exec("TRUNCATE TABLE $selectedFile");
+$query = $db->query("TRUNCATE TABLE $selectedFile");
 
 // Insert the data rows into the database
 $duplicateIds = [];
@@ -188,7 +181,7 @@ foreach ($dataRows as $row) {
     // Prepare the SQL statement to insert the data into the database
     $placeholders = implode(',', array_fill(0, count($row), '?'));
     $sql = "INSERT INTO $tableName VALUES ($placeholders)";
-    $statement = $pdo->prepare($sql);
+    $query = $db->query($sql, array_values($row));
 
     // Convert and format date values
     $rowData = array_values($row);
@@ -223,4 +216,4 @@ if (count($duplicateIds) > 0) {
     echo "The following IDs are duplicates: " . implode(", ", $duplicateIds) . ".<br>";
 }
 
-echo "Data imported successfully";
+echo "Data uploaded successfully!";
