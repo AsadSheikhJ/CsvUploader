@@ -1,5 +1,13 @@
 <?php
 
+// Load the PHPExcel library (make sure it's installed)
+require 'PhpSpreadsheet/vendor/autoload.php';
+
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Shared\Date;
+
+
 // Define the expected headers for each Excel file
 $headerMap = [
     'clinical_stool' => [
@@ -106,13 +114,6 @@ if (!isset($headerMap[$selectedFile])) {
     die("Invalid file selected");
 }
 
-// Load the PHPExcel library (make sure it's installed)
-require 'PhpSpreadsheet/vendor/autoload.php';
-
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\IOFactory;
-use PhpOffice\PhpSpreadsheet\Shared\Date;
-
 // Load the Excel file
 $objPHPExcel = IOFactory::load($excelFile);
 
@@ -196,7 +197,7 @@ foreach ($dataRows as $row) {
 
     try {
         // Insert the row data into the database
-        $statement->execute($rowData);
+        $query->execute($rowData);
     } catch (PDOException $e) {
         // Catch the exception for duplicate entry
         if ($e->getCode() == "23000") {

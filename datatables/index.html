@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Dynamic DataTables</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable({
+                "ajax": "/datatables/php_script.php",
+                "columns": [],
+                "initComplete": function(settings, json) {
+                    var columns = [];
+                    $.each(json.columns, function(key, value) {
+                        columns.push({
+                            "data": value
+                        });
+                    });
+                    settings.aoColumns = columns;
+                    $('#example').dataTable().fnDraw();
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <!-- column headers will be generated dynamically by DataTables -->
+            </tr>
+        </thead>
+    </table>
+</body>
+
+</html>
