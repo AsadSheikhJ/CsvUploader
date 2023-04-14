@@ -138,13 +138,6 @@ for ($rowIndex = $iteratorRow[$selectedFile] + 1; $rowIndex <= $iteratorRow[$sel
 }
 $dateColumns = array_unique($dateColumns);
 
-// echo "<pre>";
-// echo "Hardcoded";
-// var_dump($headerMap[$selectedFile]);
-// echo "Provided";
-// var_dump($headerRow);
-// echo "</pre>";
-
 // Check if the header row matches the expected headers for the selected file
 if ($headerRow != $headerMap[$selectedFile]) {
     die("Invalid header row");

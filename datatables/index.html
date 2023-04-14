@@ -2,39 +2,112 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Dynamic DataTables</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
-    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable({
-                "ajax": "/datatables/php_script.php",
-                "columns": [],
-                "initComplete": function(settings, json) {
-                    var columns = [];
-                    $.each(json.columns, function(key, value) {
-                        columns.push({
-                            "data": value
-                        });
-                    });
-                    settings.aoColumns = columns;
-                    $('#example').dataTable().fnDraw();
-                }
-            });
-        });
-    </script>
+    <title>Display Table Data</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.css" />
 </head>
 
 <body>
-    <table id="example" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <!-- column headers will be generated dynamically by DataTables -->
-            </tr>
-        </thead>
-    </table>
+    <table id="example" class="display" style="width:100%"></table>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.js"></script>
+    <script type="text/javascript">
+        function loadTableData(tableName) {
+            // Send AJAX request to server to get table data
+            $.ajax({
+                url: "data.php",
+                type: "POST",
+                data: {
+                    table_name: tableName
+                },
+                dataType: "json",
+                success: function(data) {
+                    console.log(Object.keys(data[0])); // Debugging statement
+                    var columns = [];
+                    Object.keys(data[0]).forEach(function(key) {
+                        if (key == "ecrf5a" || key == "ecrf5de") {
+                            // Modify specific column
+                            columns.push({
+                                data: key,
+                                title: key,
+                                render: function(data, type, row, meta) {
+                                    // Apply custom styling or value
+                                    if (data == 1) {
+                                        return '<button class="btn text-white w-100 btn-sm dt-button" data-study-id="' +
+                                            row.studyID + '" data-ecrf-col="' + key +
+                                            '"  style="background: #74ac9c !important" data-toggle= "modal" data-target = "#modal-special"  style = "font-size: smaller;" > ' +
+                                            key + ' </button>';
+                                    } else {
+                                        return '<button class="btn bg-white w-100 text-dark p-1 " disabled>Not Available</button>';
+                                    }
+                                }
+                            });
+                        } else if (key == "ecrf5bc") {
+                            // Modify specific column
+                            columns.push({
+                                data: key,
+                                title: key,
+                                render: function(data, type, row, meta) {
+                                    // Apply custom styling or value
+                                    if (data == 1) {
+                                        return '<button class="btn text-white w-100 btn-sm dt-button"  data-study-id="' +
+                                            row.studyID + '" data-ecrf-col="' + key +
+                                            '" style="background: #637c84 !important" data-toggle="modal" data-target="#modal-default" style="font-size: smaller;">  ' +
+                                            key + ' </button>';
+                                    } else {
+                                        return '<button class="btn bg-white w-100 text-dark p-1" disabled>Not Available</button></td>';
+                                    }
+                                }
+                            });
+                        } else if (key == "QC_status") {
+                            // Modify specific column
+                            columns.push({
+                                data: key,
+                                title: key,
+                                render: function(data, type, row, meta) {
+                                    // Apply custom styling or value
+                                    if (data == 0) {
+                                        return '<button class="btn text-white w-100 btn-sm btn_lockID" value="' + row.studyID + '" style="font-size: smaller;background-color: #e06666"  data-toggle="modal" data-target="#modal-customize">Lock</button>';
+                                    } else {
+                                        return '<i class="ni ni-check-bold text-success"></i>';
+                                    }
+                                }
+                            });
+                        } else {
+                            // Render other columns automatically
+                            columns.push({
+                                data: key,
+                                title: key
+                            });
+                        }
+                    });
+                    // Display table data using DataTables
+                    $('#example').DataTable({
+                        data: data,
+                        columns: columns
+                    });
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                }
+            });
+        }
+
+        $(document).ready(function() {
+            // Load table data for 'my_table'
+            loadTableData('crfdataview');
+        });
+
+        $('#example').on('click', '.dt-button', function() {
+            var studyId = $(this).data('study-id');
+            var ecrfCol = $(this).data('ecrf-col');
+            view_ECRF(studyId, ecrfCol);
+        });
+
+        function view_ECRF(id, key) {
+            console.log(id + ' ' + key);
+        }
+    </script>
 </body>
 
 </html>

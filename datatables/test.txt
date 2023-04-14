@@ -1,63 +1,32 @@
 <?php
+// Set up database connection
+$servername = "localhost";
+$username = "username";
+$password = "password";
+$dbname = "database_name";
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-namespace App\Controllers;
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 
-use CodeIgniter\Controller;
-use Config\Database;
+// Retrieve data from table
+$table_name = "table_name"; // replace with the name of your table
+$sql = "SELECT * FROM $table_name";
+$result = $conn->query($sql);
 
-class MyController extends Controller
-{
-    public function dataTable()
-    {
-        // Get the request object
-        $request = $this->request;
-
-        // Get the draw value from the request
-        $draw = $request->getGet('draw');
-
-        // Get the start and length values from the request
-        $start = $request->getGet('start');
-        $length = $request->getGet('length');
-
-        // Get the search value from the request
-        $search = $request->getGet('search')['value'];
-
-        // Get the table name from the request
-        $table = $request->getGet('table');
-
-        // Get the column name from the request
-        $column = $request->getGet('column');
-
-        // Connect to the database
-        $db = Database::connect();
-
-        // Build the SELECT query
-        $selectQuery = "SELECT * FROM $table WHERE $column LIKE ? LIMIT ?, ?";
-
-        // Execute the SELECT query
-        $data = $db->query($selectQuery, ["%$search%", (int)$start, (int)$length])->getResultArray();
-
-        // Build the COUNT query
-        $countQuery = "SELECT COUNT(*) FROM $table";
-
-        // Execute the COUNT query
-        $totalRecords = $db->query($countQuery)->getRowArray()[0];
-
-        // Build the COUNT query with search criteria
-        $countSearchQuery = "SELECT COUNT(*) FROM $table WHERE $column LIKE ?";
-
-        // Execute the COUNT query with search criteria
-        $totalFiltered = $db->query($countSearchQuery, ["%$search%"])->getRowArray()[0];
-
-        // Build the response
-        $response = [
-            'draw' => $draw,
-            'recordsTotal' => $totalRecords,
-            'recordsFiltered' => $totalFiltered,
-            'data' => $data
-        ];
-
-        // Return the response as JSON
-        return $this->response->setJSON($response);
+// Create data array for DataTables
+$data = array();
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        $data[] = $row;
     }
 }
+
+// Close database connection
+$conn->close();
+
+// Return data as JSON
+header('Content-Type: application/json');
+echo json_encode($data);
