@@ -38,34 +38,47 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/jszip.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.js"></script> -->
+    <!-- use version 0.20.0 -->
+    <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
     <script>
         var exportExcelToJson = function () {
 
             this.parseExcel = function (file) {
-                var reader = new FileReader();
+                // Test Data
+                const workbook2 = XLSX.read(file);
 
-                reader.onload = function (e) {
-                    var data = e.target.result;
-                    var workbook = XLSX.read(data, {
-                        type: 'binary'
-                    });
 
-                    workbook.SheetNames.forEach(function (sheetName) {
-                        var xlObject = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
-                        var json_object = JSON.stringify(xlObject);
-                        console.log(JSON.parse(json_object));
-                        $(".error-message").html(JSON.parse(json_object));
+                // var reader = new FileReader();
 
-                    })
+                // reader.onload = function (e) {
+                //     var data = e.target.result;
 
-                };
+                //     var workbook = XLSX.read(data, {
+                //         type: 'binary'
+                //     });
 
-                reader.onerror = function (sendErr) {
-                    console.log(sendErr);
-                };
+                //     // workbook.SheetNames.forEach(function (sheetName) {
+                //     //     var xlObject = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
+                //     //     var json_object = JSON.stringify(xlObject);
+                //     //     console.log(JSON.parse(json_object));
+                //     //     $(".error-message").html(JSON.parse(json_object));
 
-                reader.readAsBinaryString(file);
+                //     // })
+
+                //     workbook.SheetNames.forEach(function (sheetName) {
+                //         console.log(sheetName);
+                //         var xlObject = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
+                //         console.log(xlObject);
+                //     })
+
+                // };
+
+                // reader.onerror = function (sendErr) {
+                //     console.log(sendErr);
+                // };
+
+                // reader.readAsBinaryString(file);
             };
         };
 
