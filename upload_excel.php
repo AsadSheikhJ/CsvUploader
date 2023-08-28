@@ -46,14 +46,14 @@ $headerMap = [
         "S=≥16,I=11-15,R=≤10",
         "S=≥26,I=23-25,R=≤22",
         "S=≥26,I=22-25,R=≤21",
-        "≥16,11-15,≤10"    
+        "≥16,11-15,≤10"
     ],
     'cholera_case' => [
         "S.No.",
-        "Date" ,
-        "F" ,
-        "M" ,
-        "Grand Total"       
+        "Date",
+        "F",
+        "M",
+        "Grand Total"
     ],
     'covid_layari' => [
         "Date (DD/MM/YYYY)",
@@ -152,15 +152,19 @@ $dateColumns = array_unique($dateColumns);
 
 // Check if the header row matches the expected headers for the selected file
 if ($headerRow != $headerMap[$selectedFile]) {
-    die("Invalid header row");
+    $mismatchedColumns = array_diff($headerRow, $headerMap[$selectedFile]);
+    echo "Invalid header row. Mismatched columns: <br>";
+    echo implode('<br> ', $mismatchedColumns);
+    die();
 }
 
 // Get the database column count for the selected table
 $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 $tableName = $selectedFile;
-$statement = $pdo->prepare("SELECT COUNT(*) FROM information_schema.columns WHERE table_name = ?");
-$statement->execute([$tableName]);
-$columnCount = $statement->fetchColumn();
+$statement = $pdo->prepare("DESCRIBE $tableName");
+$statement->execute();
+$columns = $statement->fetchAll(PDO::FETCH_COLUMN);
+$columnCount = count($columns);
 
 // Get the iterator row for the selected file
 $iteratorRow = isset($iteratorRow[$selectedFile]) ? $iteratorRow[$selectedFile] : 1;
@@ -173,14 +177,16 @@ array_splice($dataRows, 0, $iteratorRow - 0);
 
 // Check if the number of columns in the data rows matches the table's column count
 foreach ($dataRows as $row) {
-    if (count($row) != $columnCount) {
+    $rowCount = count($row);
+    if ($rowCount != $columnCount) {
+        echo "Expected column count: $columnCount, Actual column count: $rowCount <br>";
         die("Invalid column count in data row");
     }
 }
 
-
-// Empty the database table
-$pdo->exec("TRUNCATE TABLE $selectedFile");
+// Counters for imported rows and skipped duplicates
+$importedRows = 0;
+$skippedDuplicates = 0;
 
 // Insert the data rows into the database
 $duplicateIds = [];
@@ -204,6 +210,7 @@ foreach ($dataRows as $row) {
     try {
         // Insert the row data into the database
         $statement->execute($rowData);
+        $importedRows++; // Increment the imported rows count
     } catch (PDOException $e) {
         // Catch the exception for duplicate entry
         if ($e->getCode() == "23000") {
@@ -211,6 +218,7 @@ foreach ($dataRows as $row) {
             preg_match("/Duplicate entry '(.+)' for key/i", $e->getMessage(), $matches);
             $duplicateId = $matches[1];
             $duplicateIds[] = $duplicateId;
+            $skippedDuplicates++; // Increment the skipped duplicates count
             continue; // Skip this row and move to the next one
         } else {
             // Re-throw other exceptions
@@ -220,7 +228,9 @@ foreach ($dataRows as $row) {
 }
 
 if (count($duplicateIds) > 0) {
-    echo "The following IDs are duplicates: " . implode(", ", $duplicateIds) . ".<br>";
+    echo "Imported Rows: {$importedRows}<br>";
+    echo "Skipped Duplicates: {$skippedDuplicates} <br>";
+    echo "The following IDs are duplicates: <br>" . implode(",<br>", $duplicateIds) . ".<br>";
 }
 
 echo "Data imported successfully";

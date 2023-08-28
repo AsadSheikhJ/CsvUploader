@@ -48,14 +48,14 @@ $headerMap = [
         "S=≥16,I=11-15,R=≤10",
         "S=≥26,I=23-25,R=≤22",
         "S=≥26,I=22-25,R=≤21",
-        "≥16,11-15,≤10"    
+        "≥16,11-15,≤10"
     ],
     'cholera_case' => [
         "S.No.",
-        "Date" ,
-        "F" ,
-        "M" ,
-        "Grand Total"       
+        "Date",
+        "F",
+        "M",
+        "Grand Total"
     ],
     'covid_layari' => [
         "Date (DD/MM/YYYY)",

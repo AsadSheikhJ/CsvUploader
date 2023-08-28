@@ -11,22 +11,71 @@
         <option value="cholera_case">cholera_case 2</option>
         <option value="covid_layari">covid_layari 3</option>
         <option value="covid_gulshan">covid_gulshan 4</option>
-        <option value="covid_gadap">covid_gadap  5</option>
-        <option value="rota_case">rota_case  6</option>
-        <option value="enteric_fever">enteric_fever  7</option>
+        <option value="covid_gadap">covid_gadap 5</option>
+        <option value="rota_case">rota_case 6</option>
+        <option value="enteric_fever">enteric_fever 7</option>
     </select>
     <br><br>
-    <input type="file" id="excelFile">
+    <!-- <input type="file" id="excelFile">
     <br><br>
-    <button onclick="uploadExcelFile()">Upload Excel</button>
+    <button onclick="uploadExcelFile()">Upload Excel</button> -->
+    <div style="border:1px solid black; width: 100%; height: auto; margin-top: 2%;">
+        <h2 style="padding: 12px; margin: 0; font-family:'Times New Roman', Times, serif;">Error Display Box</h2>
+        <p class="error-message" style="padding: 4%;color: brown;"></p>
+    </div>
+
+    <input type="file" id="excelFileInput">
+    <button onclick="handleFile()">Parse Excel</button>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="upload_csv.js"></script>
-    <script>
-        $(document).ready(function() {
+    <!-- <script src="upload_csv.js"></script> -->
+    <!-- <script>
+        $(document).ready(function () {
             // execute the JavaScript code after the HTML document has finished loading
             // ...
         });
+    </script> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/jszip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.js"></script>
+    <script>
+        var exportExcelToJson = function () {
+
+            this.parseExcel = function (file) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    var data = e.target.result;
+                    var workbook = XLSX.read(data, {
+                        type: 'binary'
+                    });
+
+                    workbook.SheetNames.forEach(function (sheetName) {
+                        var xlObject = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
+                        var json_object = JSON.stringify(xlObject);
+                        console.log(JSON.parse(json_object));
+                        $(".error-message").html(JSON.parse(json_object));
+
+                    })
+
+                };
+
+                reader.onerror = function (sendErr) {
+                    console.log(sendErr);
+                };
+
+                reader.readAsBinaryString(file);
+            };
+        };
+
+
+        function handleFile() {
+            var fileInput = document.getElementById('excelFileInput');
+            var file = fileInput.files[0]; // Get the selected file
+            var excelParser = new exportExcelToJson();
+            excelParser.parseExcel(file);
+        }
     </script>
 </body>
 

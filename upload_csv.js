@@ -15,11 +15,13 @@ function uploadExcelFile() {
     // Send the file to the PHP script using AJAX
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "upload_excel.php", true);
-    xhr.onload = function() {
+    xhr.onload = function () {
         if (xhr.status == 200) {
             console.log(xhr.responseText);
+            $(".error-message").html(xhr.responseText.replace(/<br>/g, '<br/>'));
         } else {
             console.log("Error: " + xhr.statusText);
+            $(".error-message").html(xhr.responseText.replace(/<br>/g, '<br/>'));
         }
     };
     xhr.send(formData);

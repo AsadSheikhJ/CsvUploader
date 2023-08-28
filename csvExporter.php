@@ -3,7 +3,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$dbname = "db-name";
+$dbname = "upload-db";
 
 // Get the table name from the query string parameter
 $tableName = isset($_GET['table']) ? $_GET['table'] : '';
